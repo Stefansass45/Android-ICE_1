@@ -10,5 +10,5 @@ data class Meal(
     val strIngredient1: String?,
     val strIngredient2: String?,
     val strIngredient3: String?
-    // Add more ingredients as needed...
+
 )

@@ -35,8 +35,8 @@ class MealDetailActivity : AppCompatActivity() {
         val mealId = intent.getStringExtra("MEAL_ID")
 
         if (mealId.isNullOrEmpty()) {
-            Toast.makeText(this, "🚫 No meal ID passed!", Toast.LENGTH_LONG).show()
-            Log.e("MealDetailActivity", "❌ No meal ID found in intent")
+            Toast.makeText(this, "No meal ID passed!", Toast.LENGTH_LONG).show()
+            Log.e("MealDetailActivity", "No meal ID found in intent")
             finish()
             return
         }
@@ -47,15 +47,15 @@ class MealDetailActivity : AppCompatActivity() {
         RetrofitClient.instance.getMealById(mealId).enqueue(object : Callback<MealResponse> {
             override fun onResponse(call: Call<MealResponse>, response: Response<MealResponse>) {
                 if (!response.isSuccessful) {
-                    Toast.makeText(this@MealDetailActivity, "❌ Failed to load meal (Code ${response.code()})", Toast.LENGTH_LONG).show()
-                    Log.e("MealDetailActivity", "❗ Unsuccessful response: ${response.code()}")
+                    Toast.makeText(this@MealDetailActivity, "Failed to load meal (Code ${response.code()})", Toast.LENGTH_LONG).show()
+                    Log.e("MealDetailActivity", "Unsuccessful response: ${response.code()}")
                     return
                 }
 
                 val meal = response.body()?.meals?.firstOrNull()
                 if (meal == null) {
-                    Toast.makeText(this@MealDetailActivity, "⚠️ Meal not found!", Toast.LENGTH_LONG).show()
-                    Log.e("MealDetailActivity", "⚠️ No meal data returned")
+                    Toast.makeText(this@MealDetailActivity, "Meal not found!", Toast.LENGTH_LONG).show()
+                    Log.e("MealDetailActivity", "No meal data returned")
                     return
                 }
 
@@ -69,8 +69,8 @@ class MealDetailActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<MealResponse>, t: Throwable) {
-                Toast.makeText(this@MealDetailActivity, "💥 Network error: ${t.message}", Toast.LENGTH_LONG).show()
-                Log.e("MealDetailActivity", "💥 API failure: ${t.message}")
+                Toast.makeText(this@MealDetailActivity, "Network error: ${t.message}", Toast.LENGTH_LONG).show()
+                Log.e("MealDetailActivity", "API failure: ${t.message}")
             }
         })
     }
