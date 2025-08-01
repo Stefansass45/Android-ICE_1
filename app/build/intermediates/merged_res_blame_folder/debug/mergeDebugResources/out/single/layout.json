@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\michk\\.gradle\\daemon\\8.13\\vcmsa.projects.studentchef.app-mergeDebugResources-33:\\layout\\activity_meal_detail.xml",
+        "source": "C:\\Users\\michk\\.gradle\\daemon\\8.13\\vcmsa.projects.studentchef.app-main-36:\\layout\\activity_meal_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\michk\\.gradle\\daemon\\8.13\\vcmsa.projects.studentchef.app-mergeDebugResources-33:\\layout\\item_meal.xml",
+        "source": "C:\\Users\\michk\\.gradle\\daemon\\8.13\\vcmsa.projects.studentchef.app-main-36:\\layout\\item_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\michk\\.gradle\\daemon\\8.13\\vcmsa.projects.studentchef.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\michk\\.gradle\\daemon\\8.13\\vcmsa.projects.studentchef.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "vcmsa.projects.studentchef.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "vcmsa.projects.studentchef.app-main-36:/layout/activity_main.xml"
+    }
+]

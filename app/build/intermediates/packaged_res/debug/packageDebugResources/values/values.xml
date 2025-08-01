@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_gray">#444444</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">studentchef</string>
+    <string name="meal_image_desc">Meal image</string>
+    <style name="Base.Theme.Studentchef" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Studentchef" parent="Base.Theme.Studentchef"/>
+</resources>

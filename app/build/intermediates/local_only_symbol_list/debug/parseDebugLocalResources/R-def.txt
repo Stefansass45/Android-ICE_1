@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color dark_gray
+color teal_700
+color white
+drawable ic_arrow_back
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable image_placeholder_bg
+drawable image_rounded_corners
+id imageView
+id instructions
+id mainLayout
+id mealDetailRoot
+id mealImage
+id mealTitle
+id recyclerView
+id searchView
+id title
+id toolbar
+id tvAppTitle
+id tvInstructions
+id tvQuestion
+layout activity_main
+layout activity_meal_detail
+layout item_meal
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string meal_image_desc
+style Base.Theme.Studentchef
+style Theme.Studentchef
+xml backup_rules
+xml data_extraction_rules
